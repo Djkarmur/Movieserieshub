@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+.header{
+    display:flex;
+   
+    justify-content: center;
+    font-family: 'Roboto flex';
+    font-size: 3vw;
+    background-color: #22577E;
+    padding-bottom: 15px;
+  box-shadow: 0px 1px 5px black;
+  color: white;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+}
+@media(max-width:550px){
+  .header{
+    text-align: center;
+    padding-top:15px;
+  }
+  
+}
