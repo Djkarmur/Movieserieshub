@@ -78,7 +78,7 @@ const [loading,setLoading]=useState(false)
   return (
     <div>
       <div type="button" onClick={handleOpen} className='media'>
-       {children}
+       {children} 
       </div>
       <Modal
         aria-labelledby="transition-modal-title"

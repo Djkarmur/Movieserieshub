@@ -3,7 +3,7 @@ import axios from "axios";
 import { useEffect } from "react";
 import Chip from "@material-ui/core/Chip";
 import usetvgenre from "../../hiiks/usetvgenre";
-import _ from "lodash"
+import _ from "lodash";
 import { setSelectionRange } from "@testing-library/user-event/dist/utils";
 
 const Tvgenres = ({

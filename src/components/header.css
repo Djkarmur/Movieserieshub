@@ -1,22 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,300;0,400;1,300&family=Montserrat:wght@100;200;300;400;500;600;700&family=Open+Sans:wght@300;400&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500&display=swap');
 .header{
     display:flex;
-   
+    font-family: 'Fira Sans', sans-serif;
     justify-content: center;
-    font-family: 'Roboto flex';
-    font-size: 3vw;
+    align-items: center;
+    padding: 7px 0;
+    font-size: 2.5rem;
     background-color: #22577E;
-    padding-bottom: 15px;
   box-shadow: 0px 1px 5px black;
   color: white;
-  z-index: 100;
+  z-index: 2;
   position: fixed;
   width: 100%;
 }
 @media(max-width:550px){
   .header{
     text-align: center;
-    padding-top:15px;
+    font-size: 2rem;
   }
   
 }

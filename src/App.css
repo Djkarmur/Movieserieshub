@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,300;0,400;1,300&family=Montserrat:wght@100;200;300;400;500;600;700&family=Open+Sans:wght@300;400&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500&display=swap');
 * {
     scroll-behavior: smooth;
+    font-family: 'Fira Sans', sans-serif;
   }
   
   
@@ -16,21 +18,22 @@
     .app{
         padding-top: 70px;
     }
+   
 }
 
 .pageTitle {
     text-transform: uppercase;
     display: flex;
     justify-content: center;
-    font-family: "Montserrat", sans-serif;
     font-size: 2vw;
     padding: 4px;
     border-radius: 50px;
     color: white;
+   
   }
   
   @media (max-width: 1000px) {
     .pageTitle {
-      font-size: 6.4vw;
+      font-size: 6.4em;
     }
   }
